@@ -7,6 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    artii (2.1.0)
     chrono (0.0.4)
       activesupport
     dotenv (1.0.2)
@@ -29,12 +30,21 @@ GEM
       dotenv
       mem
       slop
+    ruboty-aa (0.0.1)
+      artii (>= 2.0)
+      ruboty
     ruboty-alias (0.0.3)
       ruboty
     ruboty-cron (0.0.9)
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-dajare (1.0.0)
+      ruboty
+    ruboty-deadline (1.0.2)
+      activesupport
+      ruboty
+      tokiyomi
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -46,8 +56,12 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
+    ruboty-zoi (1.1.0)
+      ruboty
     slop (3.6.0)
     thread_safe (0.3.4)
+    tokiyomi (0.1.0)
+      activesupport
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xrc (0.1.4)
@@ -58,8 +72,12 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-aa
   ruboty-alias
   ruboty-cron
+  ruboty-dajare
+  ruboty-deadline
   ruboty-google_image
   ruboty-redis
   ruboty-slack
+  ruboty-zoi
