@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.0
+- 2.1.5
+- 2.0.0
+- 1.9.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: ebOuprWwuEvJytYgxEawaSIT7efNaJVYWVVKaGJFHTY79PJfSDdU62ebLUBKGfu9PYtSY4cXV0WcuHDGFNJ/ombnlQ7/B7mISca17AWD3+YGYgF3YXUYGYCzQU8/o5+eelJ4D2GyXVF2px4jRQbdS+55LM0fvVhE0ONMantdJ0A=
+  app: robotoyman
+  on:
+    repo: toyamaprog/robotoyman-template
