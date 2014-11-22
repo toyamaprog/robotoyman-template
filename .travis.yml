@@ -8,3 +8,6 @@ deploy:
   app: robotoyman
   on:
     repo: toyamaprog/robotoyman-template
+notifications:
+  slack:
+    secure: fx7zqbJz7o5wbU2u6b7vZZ0HSPBq1RDC2FAduo6U9O3vJVq4Fy5Y8eJDjp2aTlt/3PzytdgQpSEm/6JgCrXaLiW+cmuxxoyu7GmEBCYGq+6Gr6+HrwmLEqygmo0pc7STu1QOjRdpuXRJXjU/N5YYAHcdjaiWgEnD3dvIP3yYvn0=
